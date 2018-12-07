@@ -1,0 +1,19 @@
+{
+  "name": "rtca-scalegrid",
+  "version": "1.0.0",
+  "description": "This repository contains code for a chat application built using the following web technologies:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js -a localhost -p 7777"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "expressjs": "^1.0.1",
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0"
+  }
+}
